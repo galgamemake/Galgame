@@ -1984,6 +1984,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &848624353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2066,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Development
 --- !u!1 &936306337
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,6 +3069,10 @@ GameObject:
   - component: {fileID: 1279271040}
   - component: {fileID: 1279271041}
   - component: {fileID: 1279271019}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1279271042}
+>>>>>>> Development
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3086,11 +3093,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
+<<<<<<< HEAD
   scrollPos: {x: 259.58255, y: 130.16135}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 265
   zoom: 0.4
+=======
+  scrollPos: {x: 279.68143, y: 210.18506}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 493
+  zoom: 0.6100004
+>>>>>>> Development
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3098,9 +3113,15 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
+<<<<<<< HEAD
   - {fileID: 1279270992}
   selectedCommands:
   - {fileID: 1279271019}
+=======
+  - {fileID: 1279270987}
+  selectedCommands:
+  - {fileID: 1279271022}
+>>>>>>> Development
   variables:
   - {fileID: 1279270981}
   description: 
@@ -3127,8 +3148,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -58.740963
     y: 109.22042
+=======
+    x: -57.101624
+    y: 104.30238
+>>>>>>> Development
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3298,8 +3324,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 84.930595
     y: 108.261505
+=======
+    x: 89.848625
+    y: 100.06479
+>>>>>>> Development
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3463,8 +3494,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -205.27643
     y: 46.61371
+=======
+    x: -206.91577
+    y: 40.056335
+>>>>>>> Development
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3473,7 +3509,12 @@ MonoBehaviour:
   blockName: setting
   description: 
   eventHandler: {fileID: 0}
+<<<<<<< HEAD
   commandList: []
+=======
+  commandList:
+  - {fileID: 1279271042}
+>>>>>>> Development
 --- !u!114 &1279270983
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3655,8 +3696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.20262
-    y: 111.79248
+    x: 241.76
+    y: 105.23511
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3953,8 +3994,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 236.46577
-    y: 187.90526
+    x: 238.10512
+    y: 176.42986
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4122,8 +4163,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 391.4072
     y: 111.99083
+=======
+    x: 399.14105
+    y: 105.89633
+>>>>>>> Development
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5171,6 +5217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 71
+<<<<<<< HEAD
   indentLevel: 0
 --- !u!114 &1279271041
 MonoBehaviour:
@@ -5186,6 +5233,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
+=======
+  indentLevel: 0
+--- !u!114 &1279271041
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279270965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  indentLevel: 0
+--- !u!114 &1279271042
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279270965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: New Scene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+>>>>>>> Development
 --- !u!1 &1291572983
 GameObject:
   m_ObjectHideFlags: 0
@@ -7456,7 +7539,6 @@ Transform:
   - {fileID: 1373409260}
   - {fileID: 819715371}
   - {fileID: 1050415212}
-  - {fileID: 848624354}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
