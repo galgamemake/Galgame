@@ -1,4 +1,4 @@
 # Galgame
 Make galgame
 Danny Zhao Comes here.
-I like Android.
+I like Android.i dont like
