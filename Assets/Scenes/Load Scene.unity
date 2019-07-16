@@ -2984,8 +2984,8 @@ GameObject:
   - component: {fileID: 1279270979}
   - component: {fileID: 1279271040}
   - component: {fileID: 1279271041}
-  - component: {fileID: 1279271019}
   - component: {fileID: 1279271042}
+  - component: {fileID: 1279271019}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3006,11 +3006,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 279.68143, y: 210.18506}
+  scrollPos: {x: 238.88692, y: 182.52684}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 493
-  zoom: 0.6100004
+  blockViewHeight: 260
+  zoom: 0.40000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3018,9 +3018,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1279270987}
+  - {fileID: 1279270982}
   selectedCommands:
-  - {fileID: 1279271022}
+  - {fileID: 1279271042}
   variables:
   - {fileID: 1279270981}
   description: 
@@ -3383,8 +3383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -206.91577
-    y: 40.056335
+    x: -204.41577
+    y: 30.05635
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3394,6 +3394,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1279271019}
   - {fileID: 1279271042}
 --- !u!114 &1279270983
 MonoBehaviour:
@@ -3743,7 +3744,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -205.90239
-    y: 109.974014
+    y: 104.974014
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3752,8 +3753,7 @@ MonoBehaviour:
   blockName: Load
   description: 
   eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 1279271019}
+  commandList: []
 --- !u!114 &1279270993
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4479,23 +4479,18 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1279271019
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279270965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 73
+  itemId: 75
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: Load Scene
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &1279271020
 MonoBehaviour:
   m_ObjectHideFlags: 2
