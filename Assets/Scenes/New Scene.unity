@@ -652,8 +652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 63.705902
-    y: 143.94118
+    x: 63.7059
+    y: 118.05885
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -685,11 +685,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 47.294075, y: 20.647032}
+  scrollPos: {x: 340.99936, y: 229.58772}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 270
-  zoom: 0.85000014
+  zoom: 0.34000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -698,8 +698,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 967411599}
-  selectedCommands:
-  - {fileID: 967411609}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -910,7 +909,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1116072336}
 --- !u!114 &967411609
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -927,7 +926,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &967411610
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
